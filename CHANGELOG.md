@@ -8,12 +8,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 ### Fixed
-
-- Added mute before playing video for chrome to avoid autoplay policy restriction
 - Fix BrightCove styling for players based on video.js v6+ (breaks video.js5 but that's very old now)
 - a11y fix - title on video iframe
 - Don't override account_id with a blank form value for new XBlock instances when value available from settings
 - Added missing package data to fix installation without -e flag
+- Updated requirements to be compatible with Maple release
+- Remove player buttons focus outline (RGOeX-968)
+- Set main theme color for Handout download button (RGOeX-981)
+- Hide default big play button from wistia player (RGOeX-977)
+- Minimize player button alignment fix (RGOeX-967)
+- Fix speed dropdown width (RGOeX-651)
+- Fix for videos aspect ratio and responsiveness (all providers) (RGOeX-980)
+- Brightcove subtitles popup fix (RGOeX-976)
+- Change color for focused items in the player speed dropdown (RGOeX-1344)
+- Remove vjs controls from vimeo videos for avoiding problems with default vimeo controls (RGOeX-978)
 
 ## [1.0.1] - 2021-10-20
 
